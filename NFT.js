@@ -7,7 +7,9 @@ let nftCollection = [];
 // function for minting a new NFT and add it to our collection
 function mintNFT(name, constituency, party) {
     //Inside the function, we create an object nft
+    // A constant variable cannot be reassigned after its initial assignment, ensuring that the reference to the nft object remains unchanged.
   const nft = {
+    //three properties of NFT object
     name: name,
     constituency: constituency,
     party: party
@@ -23,7 +25,7 @@ function listNFTs() {
     //use the forEach method to loop through each element (NFT) in the nftCollection array.
   nftCollection.forEach((nft, index) => {
     
-    console.log(`NFT ${index + 1}:`);//the NFT number
+    console.log(`NFT ${index + 1}:`);//to give each NFTs a number
     console.log(`  Name: ${nft.name}`);
     console.log(`  Constituency: ${nft.constituency}`);
     console.log(`  Party: ${nft.party}`);
