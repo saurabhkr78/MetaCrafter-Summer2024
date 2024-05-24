@@ -23,16 +23,14 @@ Or use Your Command Prompt
 No additional modifications are needed to the files or folders.
 
 ## Executing program
-1.How to run the program:
-
-2.Navigate to the project directory.
-3.Compile the Solidity contract using a tool like Remix
-4.Deploy the contract on the Ethereum blockchain.
-5.Interact with the contract using MetaMask
+1.Navigate to the project directory.
+2.Compile the Solidity contract using a tool like Remix.
+3.Deploy the contract on the Ethereum blockchain.
+4.Interact with the contract using MetaMask.
 
 ### Step-by-step:
 1.Open Remix.
-2.Create a new file and paste the Solidity contract code:
+2.Create a new file and paste the Solidity contract code.
 3.Compile the contract.
 4.Deploy the contract using the "Deploy & Run Transactions" tab.
 
@@ -45,7 +43,7 @@ Contributors names and contact info
 Saurabh Kumar
 @saurabhkr78
 
-##License
+## License
 This project is licensed under the MIT License
 
 
