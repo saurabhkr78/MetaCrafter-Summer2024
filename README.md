@@ -21,15 +21,15 @@ SaurabhCoin is a digital currency built on the Ethereum blockchain. my aims was 
 No additional modifications are needed to the files or folders.
 
 ## Executing program
-1.Navigate to the project directory.
-2.Compile the Solidity contract using a tool like Remix.
-3.Deploy the contract on the Ethereum blockchain.
-4.Interact with the contract using MetaMask.
+1.Navigate to the project directory.  
+2.Compile the Solidity contract using a tool like Remix.  
+3.Deploy the contract on the Ethereum blockchain.  
+4.Interact with the contract using MetaMask.  
 
 ### Step-by-step:
-1.Open Remix.
-2.Create a new file and paste the Solidity contract code.
-3.Compile the contract.
+1.Open Remix.  
+2.Create a new file and paste the Solidity contract code.  
+3.Compile the contract.  
 4.Deploy the contract using the "Deploy & Run Transactions" tab.
 
 ## Help
@@ -38,8 +38,8 @@ contact:meetsaurabh78@gmail.com
 ## Authors
 Contributors names and contact info
 
-Saurabh Kumar
-X:@saurabhkr78
+Saurabh Kumar  
+X:@saurabhkr78  
 Linkdin:https://www.linkedin.com/in/saurabhkr78/
 
 ## License
