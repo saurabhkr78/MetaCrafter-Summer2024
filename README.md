@@ -1,13 +1,13 @@
 # MetaCrafter-Summer2024
 MetaCrafter Course for Blockchain Development
 
-# SaurabhCoin-My Own first Crypto Coin 
+# SaurabhCoin-My Own first digital Coin
 
 SaurabhCoin is a fun and light-hearted cryptocurrency token that brings joy and laughter to its users.
 
 ## Description
 
-SaurabhCoin is a digital currency built on the Ethereum blockchain. It aims to spread happiness and amusement through its use in various transactions and interactions. Whether you're tipping your favorite comedian online or sending a friend some virtual laughter, SaurabhCoin is here to brighten your day.
+SaurabhCoin is a digital currency built on the Ethereum blockchain. my aims was to learn various transactions and interactions.SaurabhCoin is here to brighten your day.
 
 ## Getting Started
 
