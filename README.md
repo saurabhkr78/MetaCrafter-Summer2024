@@ -16,9 +16,7 @@ SaurabhCoin is a digital currency built on the Ethereum blockchain. my aims was 
 
 ### Installing
 
-* Download the source code from [GitHub](https://github.com/saurabhkr78/MetaCrafter-Summer2024.git) or clone the repository:
-Or use Your Command Prompt
-  git clone https://github.com/saurabhkr78/MetaCrafter-Summer2024.git
+* Download the source code from [GitHub](https://github.com/saurabhkr78/MetaCrafter-Summer2024.git) or clone the repository: git clone https://github.com/saurabhkr78/MetaCrafter-Summer2024.git
 
 No additional modifications are needed to the files or folders.
 
