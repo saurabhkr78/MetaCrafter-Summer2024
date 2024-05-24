@@ -8,7 +8,7 @@ contract SimpleStorage {
     address private addr;
     bool private flag;
 
-    // Set and get functions for uint variable
+    //  for uint variable
     function setNumber(uint _number) public returns (uint) {
         number = _number;
         return number;
@@ -18,7 +18,7 @@ contract SimpleStorage {
         return number;
     }
 
-    // Set and get functions for string variable
+    // for string variable
     function setText(string memory _text) public returns (string memory) {
         text = _text;
         return text;
@@ -28,7 +28,7 @@ contract SimpleStorage {
         return text;
     }
 
-    // Set and get functions for address variable
+    //  address variable
     function setAddress(address _addr) public returns (address) {
         addr = _addr;
         return addr;
@@ -38,7 +38,7 @@ contract SimpleStorage {
         return addr;
     }
 
-    // Set and get functions for bool variable
+    // for bool variable
     function setFlag(bool _flag) public returns (bool) {
         flag = _flag;
         return flag;
