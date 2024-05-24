@@ -1,45 +1,50 @@
-// SPDX-License-Identifier: MIT
-pragma solidity >=0.4.22 <0.9.0;
+//// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.9;
 
-contract SimpleContract {
-    uint private myUint;
-    string private myString;
-    bool private myBool;
-    address private myAddress;
+contract SimpleStorage {
 
-    function setMyUint(uint _myUint) public returns (uint) {
-        myUint = _myUint;
-        return myUint;
+    uint private number;
+    string private text;
+    address private addr;
+    bool private flag;
+
+    // Set and get functions for uint variable
+    function setNumber(uint _number) public returns (uint) {
+        number = _number;
+        return number;
     }
 
-    function getMyUint() public view returns (uint) {
-        return myUint;
+    function getNumber() public view returns (uint) {
+        return number;
     }
 
-    function setMyString(string memory _myString) public returns (string memory) {
-        myString = _myString;
-        return myString;
+    // Set and get functions for string variable
+    function setText(string memory _text) public returns (string memory) {
+        text = _text;
+        return text;
     }
 
-    function getMyString() public view returns (string memory) {
-        return myString;
+    function getText() public view returns (string memory) {
+        return text;
     }
 
-    function setMyBool(bool _myBool) public returns (bool) {
-        myBool = _myBool;
-        return myBool;
+    // Set and get functions for address variable
+    function setAddress(address _addr) public returns (address) {
+        addr = _addr;
+        return addr;
     }
 
-    function getMyBool() public view returns (bool) {
-        return myBool;
+    function getAddress() public view returns (address) {
+        return addr;
     }
 
-    function setMyAddress(address _myAddress) public returns (address) {
-        myAddress = _myAddress;
-        return myAddress;
+    // Set and get functions for bool variable
+    function setFlag(bool _flag) public returns (bool) {
+        flag = _flag;
+        return flag;
     }
 
-    function getMyAddress() public view returns (address) {
-        return myAddress;
+    function getFlag() public view returns (bool) {
+        return flag;
     }
 }
