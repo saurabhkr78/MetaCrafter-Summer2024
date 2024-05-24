@@ -1,7 +1,7 @@
 # MetaCrafter-Summer2024
 MetaCrafter Course for Blockchain Development
 
-#SaurabhCoin-My Own first Crypto Coin 
+# SaurabhCoin-My Own first Crypto Coin 
 
 SaurabhCoin is a fun and light-hearted cryptocurrency token that brings joy and laughter to its users.
 
