@@ -39,7 +39,8 @@ contact:meetsaurabh78@gmail.com
 Contributors names and contact info
 
 Saurabh Kumar
-@saurabhkr78
+X:@saurabhkr78
+Linkdin:https://www.linkedin.com/in/saurabhkr78/
 
 ## License
 This project is licensed under the MIT License
