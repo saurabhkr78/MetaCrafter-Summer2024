@@ -5,13 +5,12 @@
 let nftCollection = [];
 
 // function for minting a new NFT and add it to our collection i.e Array variable nftCollection
-function mintNFT(name, constituency, party) {
+function mintNFT(name, party) {
   //Inside the function, we create an object nft
   // A constant variable cannot be reassigned after its initial assignment, ensuring that the reference to the nft object remains unchanged.
   const nft = {
     //three properties of NFT object
     name: name,
-    constituency: constituency,
     party: party,
   };
 
@@ -25,7 +24,6 @@ function listNFTs() {
   nftCollection.forEach((nft, index) => {
     console.log(`NFT ${index + 1}:`); //to give each NFTs a number and index=0(base)
     console.log(`  Name: ${nft.name}`);
-    console.log(`  Constituency: ${nft.constituency}`);
     console.log(`  Party: ${nft.party}`);
   });
 }
@@ -36,9 +34,9 @@ function getTotalSupply() {
 }
 
 //call mintNFT three times with different MP details to create three NFTs.
-mintNFT("Narendra Modi", "Varanasi", "BJP");
-mintNFT("Rahul Gandhi", "Rae Bareli", "INC");
-mintNFT("Mamata Banerjee", "Bhavanipur", "TMC");
+mintNFT("Narendra Modi","BJP");
+mintNFT("Rahul Gandhi", "INC");
+mintNFT("Mamata Banerjee","TMC");
 
 console.log("The below following NFTs are minted:");
 listNFTs(); //to log all the NFTs in the collection
